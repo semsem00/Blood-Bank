@@ -1,0 +1,181 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+/*____________header section____________*/
+
+.navbar-light .navbar-nav .active>.nav-link{ color:#f25454;}
+
+.navbar-light .navbar-nav .nav-link {color: #282828;}
+
+.navbar-light .navbar-nav .nav-link:hover{color:#f25454}
+
+.navbar .navbar-nav>li>a {
+    font-size: 13px;
+    letter-spacing: .5px;
+    padding: 0 15px !important;
+    font-family: 'Poppins', sans-serif;
+}
+/*____________________HOME_________________________*/
+
+#home .container{
+    top: 0;
+    left: 0;
+    right: 0;
+   
+}
+.caption h1{
+    line-height: 1;
+    font-size: 70px;
+    animation: trans 1.5s ease-in-out;
+}
+@keyframes trans{
+0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+}
+100% {
+    opacity: 1;
+    transform: none;
+}
+}
+.arrow-left, .arrow-right{
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+    line-height: 50px;
+    margin-top: -50px;
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+.arrow-right{
+ top:400px;
+}
+.arrow-left{
+    top:450px
+}
+.arrow i {
+    position: relative;
+    z-index: 2;
+    padding: 3px 10px 0 10px;
+    text-decoration: none;
+}
+.arrow-left:hover{
+    background-color: #fff;
+}
+.arrow-right:hover{
+    background-color: #fff;
+}
+.arrow-left:hover i{
+    color: #f25454;
+}
+.arrow-right:hover i{
+    color: #f25454;
+}
+
+.setting{
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: 99999;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url(http://routeegypt.com/angora/layout/plugins/settings/images/icon_panel.png);
+    background-color: #1f2528;
+}
+
+
+
+
+
+/*
+================================================================================
+                              Start About
+================================================================================
+*/
+  #about .info h2{
+  font-size: 2.5rem;
+  position: relative;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+
+  #about .info h2::after{
+  content: "O";
+  position: absolute;
+  z-index: -11;
+  /* z-index: 8888; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-55% , -70%);
+  font-size: 4rem;
+  color: #eaeace;
+}
+
+  #about .info h2::before{
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 5%;
+  margin: auto;
+  height: 1px;
+  background-color: #000;
+  transition: width .5s;
+
+}
+
+  #about .info:hover h2::before{
+  width: 10%;
+}
+
+  #about .info h2::after{
+    content: "A";
+  }
+
+  #about .prog h5{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  #about .prog .progress{
+    height: 4px;
+    border-radius: 4px;
+  }
+
+  #about .prog .progress .progress-bar{
+    background-color: #f25454;
+    border-radius: 4px; 
+  }
+
+  @media (max-width: 767px){
+    #about .col-12{
+      margin: 0%;
+    }
+  }
+
+  @media (min-width: 400px){
+    #about .row{
+      margin: 0%;
+    }
+   }
+
+/*
+================================================================================
+                              End About
+================================================================================
+*/
