@@ -1,10 +1,10 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{ 
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  
 }
 /*____________header section____________*/
 
@@ -15,86 +15,86 @@ h1, h2, h3, h4, h5, h6{
 .navbar-light .navbar-nav .nav-link:hover{color:#f25454}
 
 .navbar .navbar-nav>li>a {
-    font-size: 13px;
-    letter-spacing: .5px;
-    padding: 0 15px !important;
-    font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  letter-spacing: .5px;
+  padding: 0 15px !important;
+  font-family: 'Poppins', sans-serif;
 }
 /*____________________HOME_________________________*/
 
 #home .container{
-    top: 0;
-    left: 0;
-    right: 0;
-   
+  top: 0;
+  left: 0;
+  right: 0;
+ 
 }
 .caption h1{
-    line-height: 1;
-    font-size: 70px;
-    animation: trans 1.5s ease-in-out;
+  line-height: 1;
+  font-size: 70px;
+  animation: trans 1.5s ease-in-out;
 }
 @keyframes trans{
 0% {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
 }
 100% {
-    opacity: 1;
-    transform: none;
+  opacity: 1;
+  transform: none;
 }
 }
 .arrow-left, .arrow-right{
-    position: absolute;
-    left: 0;
-    width: 50px;
-    height: 50px;
-    z-index: 20;
-    line-height: 50px;
-    margin-top: -50px;
-    font-size: 30px;
-    text-decoration: none;
-    border: 1px solid rgba(255, 255, 255, 0.7) !important;
-    color: #fff;
-    text-decoration: none;
-    padding: 5px;
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 20;
+  line-height: 50px;
+  margin-top: -50px;
+  font-size: 30px;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.7) !important;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
 }
 .arrow-right{
- top:400px;
+top:400px;
 }
 .arrow-left{
-    top:450px
+  top:450px
 }
 .arrow i {
-    position: relative;
-    z-index: 2;
-    padding: 3px 10px 0 10px;
-    text-decoration: none;
+  position: relative;
+  z-index: 2;
+  padding: 3px 10px 0 10px;
+  text-decoration: none;
 }
 .arrow-left:hover{
-    background-color: #fff;
+  background-color: #fff;
 }
 .arrow-right:hover{
-    background-color: #fff;
+  background-color: #fff;
 }
 .arrow-left:hover i{
-    color: #f25454;
+  color: #f25454;
 }
 .arrow-right:hover i{
-    color: #f25454;
+  color: #f25454;
 }
 
 .setting{
-    width: 39px;
-    height: 39px;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 200px;
-    z-index: 99999;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-image: url(http://routeegypt.com/angora/layout/plugins/settings/images/icon_panel.png);
-    background-color: #1f2528;
+  width: 39px;
+  height: 39px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  z-index: 99999;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image: url(http://routeegypt.com/angora/layout/plugins/settings/images/icon_panel.png);
+  background-color: #1f2528;
 }
 
 
