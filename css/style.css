@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, h6{
   right: 0;
  
 }
+
+.nav{
+  z-index: 2;
+}
+
 .caption h1{
   line-height: 1;
   font-size: 70px;
@@ -45,24 +50,23 @@ h1, h2, h3, h4, h5, h6{
 }
 .arrow-left, .arrow-right{
   position: absolute;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  z-index: 20;
-  line-height: 50px;
-  margin-top: -50px;
+  /* width: 50px;
+  height: 50px; */
+  /* z-index: 20; */
+  /* line-height: 50px; */
+  /* margin-top: -50px; */
   font-size: 30px;
-  text-decoration: none;
+  /* text-decoration: none; */
   border: 1px solid rgba(255, 255, 255, 0.7) !important;
   color: #fff;
   text-decoration: none;
-  padding: 5px;
+  /* padding: 5px; */
 }
 .arrow-right{
-top:400px;
+  top: 90%;
 }
 .arrow-left{
-  top:450px
+  top: 55%
 }
 .arrow i {
   position: relative;
@@ -70,15 +74,12 @@ top:400px;
   padding: 3px 10px 0 10px;
   text-decoration: none;
 }
-.arrow-left:hover{
-  background-color: #fff;
-}
+.arrow-left:hover,
 .arrow-right:hover{
   background-color: #fff;
 }
-.arrow-left:hover i{
-  color: #f25454;
-}
+
+.arrow-left:hover i,
 .arrow-right:hover i{
   color: #f25454;
 }
@@ -90,7 +91,7 @@ top:400px;
   position: absolute;
   left: 0;
   top: 200px;
-  z-index: 99999;
+  z-index: 1;
   cursor: pointer;
   background-repeat: no-repeat;
   background-image: url(http://routeegypt.com/angora/layout/plugins/settings/images/icon_panel.png);
@@ -114,7 +115,46 @@ top:400px;
       width: 40px;
      height: 40px;
     }
+}
 
+.animation{
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid #fff;
+  width: 35px;
+  height: 55px;
+  border-radius: 27px;
+}
+
+.animation .drop{
+  position: absolute;
+  top: 0%;
+  left: 38%;
+  background-color: #fff;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  animation: drop 2s ease-in-out infinite;
+}
+
+@keyframes drop{
+  0%{
+    opacity: 0;
+    top: 0%;
+  }
+
+  50%{
+    opacity: 1;
+    transform: translatey(50%);
+  }
+
+  100%{
+    opacity: 0;
+    top: 50%;
+    transform: translateY(95%);
+  }
 }
 
 
