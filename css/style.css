@@ -50,8 +50,8 @@ h1, h2, h3, h4, h5, h6{
 }
 .arrow-left, .arrow-right{
   position: absolute;
-  /* width: 50px;
-  height: 50px; */
+  width: 50px;
+  height: 50px;
   /* z-index: 20; */
   /* line-height: 50px; */
   /* margin-top: -50px; */
@@ -63,10 +63,10 @@ h1, h2, h3, h4, h5, h6{
   /* padding: 5px; */
 }
 .arrow-right{
-  top: 90%;
+  top: 43%;
 }
 .arrow-left{
-  top: 55%
+  top: 52%
 }
 .arrow i {
   position: relative;
