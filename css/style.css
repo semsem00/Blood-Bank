@@ -347,4 +347,26 @@ transition: transform 0.4s ease-in-out;
 .imageHover:hover{
   transform:scale(1.1,1.1);
 }
-/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */ 
+
+/* about section  */ 
+
+.pro{
+  width: 85%;
+} 
+.pr{
+  width: 90%;
+}
+
+.about{
+  position: relative;
+}
+.about::after{
+  content:"" ;
+  height: 5%; 
+  width: 20%; 
+  position: absolute; 
+  bottom: 2.5%;  
+  left: 1%;  
+  background-color: dodgerblue;
+} 
