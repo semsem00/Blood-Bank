@@ -328,3 +328,23 @@ transition: transform 0.4s ease-in-out;
 }
 
 /*_________________________________________________________________________________________*/
+
+
+/* -----------------------Portfolio---------------------- ----------------------------------*/
+.borderx{
+  border:20px solid #e7e5e5 ;
+}
+.overFlow{
+  overflow:hidden;
+}
+#PORTFOLIO   .text-info{
+  cursor: pointer;
+}
+.imageHover{
+  transition: 3s;
+}
+
+.imageHover:hover{
+  transform:scale(1.1,1.1);
+}
+/* ---------------------------------------------------------------------------------------- */
