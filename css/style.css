@@ -298,6 +298,10 @@ h6 {
     transition: all 0.4s ease-in-out;
 }
 
+.member-img{
+    border-radius: 3px;
+}
+
 .member img {
     border-radius: 3px;
     transition: transform 0.4s ease-in-out;
@@ -311,12 +315,17 @@ h6 {
     height: 100%;
     border-radius: 3px;
     background-color: rgba(242, 84, 84, 0.85);
+    z-index: 0;
 }
 
 .member:hover h5 {
     color: rgba(242, 84, 84, 0.85);
 }
 
+.icons{
+    position: absolute;
+    z-index: -1;
+}
 .icons a {
     text-decoration: none;
     color: #fff;
@@ -350,6 +359,27 @@ h6 {
     text-decoration: none;
     border-color: #ccc;
     background-color: rgba(242, 84, 84, 0.85);
+}
+@media (max-width:767px){
+    .icons  i {
+        font-size: 30px;
+    }
+    .icons a {
+        padding: 0 30px;
+    }
+    .question h3 {
+      font-size: 25px;
+      font-weight: 400;
+    }
+  }
+  
+  @media (min-width:767px) and (max-width:901px){
+    .icons i  {
+        font-size: 12px;
+    }
+    .icons a {
+        padding-left:5px;
+    }
 }
 
 
